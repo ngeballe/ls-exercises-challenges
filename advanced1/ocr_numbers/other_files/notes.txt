@@ -1,0 +1,21 @@
+- input: a 3x4 grid of pipes, underscores, and spaces (Trinary number)
+- output: a string of numbers
+
+- singular number
+    + representation of each number, 0 - 9
+    + lookup
+    + return '?' for invalid input
+
+- multiple numbers--n numbers
+    - need to convert grid of (3 * n) * 4 into n grids of (3 x 4)
+        + bring a 3*n string into n groups of 3 characters: String#scan
+        + break into multiples of (3 x 4) array groups
+ 
+- multiple rows of numbers
+    + divide into multiple single rows
+    + use the solution for step above
+
+- Implementation:
+    + how to represent an OCR number
+    + " _\n| |\n|_|\n" => 0
+    + or w/o newlines " _| ||_|" => 0

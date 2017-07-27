@@ -1,0 +1,10 @@
+following_along_notes.txt
+
+V R G C
+
+{ 'V' => :violet, 'R' => :radish, 'G' => :grass, 'C' => :clover }
+
+{ 'alice' => [0, 1], 'bob' => [2, 3] }
+
+VVCG
+VVRC

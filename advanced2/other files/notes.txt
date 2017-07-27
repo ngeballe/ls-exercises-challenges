@@ -1,0 +1,10 @@
+# given the diagram & kid's name
+
+diagram = "VRCGVVRVCGGCCGVRGCVCGCGV\nVRCCCGCRRGVCGCRVVCVGCGCV"
+
+alice
+    letters = diagram[0][0..1].split + diagram[1][0..1].split
+    letters.map { |letter| PLANTS[letter] }
+
+
+
